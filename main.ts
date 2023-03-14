@@ -21,6 +21,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
                     . # . . .
                     . . . . .
                     `)
+                basic.showString("1/3")
                 game.setScore(1)
             }
         } else {
@@ -37,6 +38,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
                     . # . . .
                     . . . . .
                     `)
+                basic.showString("2/3")
                 game.setScore(2)
             }
         } else {
@@ -53,6 +55,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
                     . # . . .
                     . . . . .
                     `)
+                basic.showString("3/3")
                 game.setScore(3)
             }
         } else {

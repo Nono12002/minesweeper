@@ -68,7 +68,7 @@ let Flag_3: game.LedSprite = null
 let Flag_2: game.LedSprite = null
 let Flag_1: game.LedSprite = null
 game.setScore(0)
-game.setLife(5)
+game.setLife(10)
 Flag_1 = game.createSprite(randint(0, 4), randint(0, 4))
 Flag_2 = game.createSprite(randint(0, 4), randint(0, 4))
 Flag_3 = game.createSprite(randint(0, 4), randint(0, 4))
